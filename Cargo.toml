@@ -1,0 +1,12 @@
+[package]
+name = "bm60rgb-hid-dbus-messages"
+version = "0.1.0"
+authors = ["Vsevolod Seravkin"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hidapi = "1.2.5"
+dbus = "0.9.1"
+fxhash = "0.2.1"
